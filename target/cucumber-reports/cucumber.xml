@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="Cucumber" time="19.446" tests="4" skipped="0" failures="0" errors="0">
+<testcase classname="EndToEnd Cogmento Functionality" name="Validate login page functionality" time="14.652">
+<system-out><![CDATA[
+Given user is on login page.................................................passed
+When user enters valid username and password................................passed
+Then user click on login button.............................................passed
+]]></system-out>
+</testcase>
+<testcase classname="EndToEnd Cogmento Functionality" name="Validate Home Page Functionality" time="0.107">
+<system-out><![CDATA[
+Then user validate home page Title..........................................passed
+And user validate logo......................................................passed
+And user validate home page URL.............................................passed
+]]></system-out>
+</testcase>
+<testcase classname="EndToEnd Cogmento Functionality" name="Validate Contact page Functionality" time="4.253">
+<system-out><![CDATA[
+When user click on contact link.............................................passed
+And click on create button..................................................passed
+And Enter first name, last name , email, select status......................passed
+Then click on save button...................................................passed
+And delete the contact......................................................passed
+]]></system-out>
+</testcase>
+<testcase classname="EndToEnd Cogmento Functionality" name="Validate logout Functionality" time="0.251">
+<system-out><![CDATA[
+When user click on profile icon.............................................passed
+And click on logout.........................................................passed
+Then user will logout from application......................................passed
+]]></system-out>
+</testcase>
+</testsuite>

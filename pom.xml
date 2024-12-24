@@ -1,0 +1,126 @@
+<project xmlns="http://maven.apache.org/POM/4.0.0"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+	<modelVersion>4.0.0</modelVersion>
+
+	<groupId>RunnerTest</groupId>
+	<artifactId>BDD_FrameWork</artifactId>
+	<version>0.0.1-SNAPSHOT</version>
+	<packaging>jar</packaging>
+
+	<name>BDD_FrameWork</name>
+	<url>http://maven.apache.org</url>
+
+	<properties>
+		<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+	</properties>
+
+	<dependencies>
+		<!-- Cucumber Dependencies -->
+		<dependency>
+			<groupId>io.cucumber</groupId>
+			<artifactId>cucumber-java</artifactId>
+			<version>7.14.0</version>
+		</dependency>
+		<dependency>
+			<groupId>io.cucumber</groupId>
+			<artifactId>cucumber-junit</artifactId>
+			<scope>test</scope>
+		</dependency>
+		<dependency>
+			<groupId>io.cucumber</groupId>
+			<artifactId>gherkin</artifactId>
+			<version>26.0.0</version>
+		</dependency>
+		<dependency>
+			<groupId>io.cucumber</groupId>
+			<artifactId>cucumber-core</artifactId>
+			<version>7.14.0</version>
+		</dependency>
+
+		<!-- JUnit 5 -->
+		<dependency>
+			<groupId>org.junit.jupiter</groupId>
+			<artifactId>junit-jupiter-api</artifactId>
+			<version>5.10.2</version>
+			<scope>test</scope>
+		</dependency>
+
+		<!-- Selenium -->
+		<dependency>
+			<groupId>org.seleniumhq.selenium</groupId>
+			<artifactId>selenium-java</artifactId>
+			<version>4.16.1</version>
+		</dependency>
+
+		<!-- ExtentReports Cucumber Adapter -->
+		<!--
+		https://mvnrepository.com/artifact/tech.grasshopper/extentreports-cucumber7-adapter -->
+		<dependency>
+			<groupId>tech.grasshopper</groupId>
+			<artifactId>extentreports-cucumber7-adapter</artifactId>
+			<version>1.10.1</version>
+		</dependency>
+
+
+		<!-- ExtentReports -->
+		<dependency>
+			<groupId>com.aventstack</groupId>
+			<artifactId>extentreports</artifactId>
+			<version>5.0.9</version>
+		</dependency>
+		<dependency>
+			<groupId>org.apache.logging.log4j</groupId>
+			<artifactId>log4j-core</artifactId>
+			<version>2.20.0</version>
+		</dependency>
+
+		<!-- Log4j2 API -->
+		<dependency>
+			<groupId>org.apache.logging.log4j</groupId>
+			<artifactId>log4j-api</artifactId>
+			<version>2.20.0</version>
+		</dependency>
+
+		<dependency>
+			<groupId>org.projectlombok</groupId>
+			<artifactId>lombok</artifactId>
+			<version>1.18.30</version> <!-- Ensure the latest compatible version -->
+			<scope>provided</scope>
+		</dependency>
+
+		<!-- Log4j2 SLF4J Bridge (Optional: if you use SLF4J for logging) -->
+		<dependency>
+			<groupId>org.apache.logging.log4j</groupId>
+			<artifactId>log4j-slf4j-impl</artifactId>
+			<version>2.20.0</version>
+		</dependency>
+	</dependencies>
+	<dependencyManagement>
+		<dependencies>
+			<dependency>
+				<groupId>io.cucumber</groupId>
+				<artifactId>cucumber-junit</artifactId>
+				<version>7.14.0</version>
+			</dependency>
+		</dependencies>
+	</dependencyManagement>
+	
+	
+	<build>
+    <plugins>
+        <plugin>
+            <groupId>org.apache.maven.plugins</groupId>
+            <artifactId>maven-compiler-plugin</artifactId>
+            <version>3.10.1</version> <!-- Latest stable version -->
+            <configuration>
+                <source>11</source> <!-- Ensure this matches your Java version -->
+                <target>11</target>
+            </configuration>
+        </plugin>
+    </plugins>
+</build>
+
+
+
+</project>

@@ -1,0 +1,60 @@
+2024-12-24 16:43:25 [main] INFO  StepDefination.EndToEndCogmento - Initializing the WebDriver and navigating to the login page
+2024-12-24 16:43:35 [main] INFO  StepDefination.EndToEndCogmento - Navigated to: https://ui.cogmento.com/
+2024-12-24 16:43:35 [main] INFO  StepDefination.EndToEndCogmento - Entering valid username and password
+2024-12-24 16:43:35 [main] INFO  StepDefination.EndToEndCogmento - Clicking on login button
+2024-12-24 16:43:40 [main] INFO  StepDefination.EndToEndCogmento - Validating home page title
+2024-12-24 16:43:40 [main] INFO  StepDefination.EndToEndCogmento - Home page title validation successful: Cogmento CRM
+2024-12-24 16:43:40 [main] INFO  StepDefination.EndToEndCogmento - Validating logo visibility
+2024-12-24 16:43:41 [main] INFO  StepDefination.EndToEndCogmento - Logo is displayed: true
+2024-12-24 16:43:41 [main] INFO  StepDefination.EndToEndCogmento - Validating home page URL
+2024-12-24 16:43:41 [main] INFO  StepDefination.EndToEndCogmento - URL validation successful: https://ui.cogmento.com/
+2024-12-24 16:43:41 [main] INFO  StepDefination.EndToEndCogmento - Clicking on Contacts link
+2024-12-24 16:43:41 [main] INFO  StepDefination.EndToEndCogmento - Clicking on Create button
+2024-12-24 16:43:41 [main] INFO  StepDefination.EndToEndCogmento - Entering contact details: First name, Last name, Email, and selecting Status
+2024-12-24 16:43:44 [main] INFO  StepDefination.EndToEndCogmento - Selected status: On Hold
+2024-12-24 16:43:44 [main] INFO  StepDefination.EndToEndCogmento - Clicking on Save button
+2024-12-24 16:43:44 [main] INFO  StepDefination.EndToEndCogmento - Deleting the contact
+2024-12-24 16:43:46 [main] INFO  StepDefination.EndToEndCogmento - Contact deleted successfully
+2024-12-24 16:43:46 [main] INFO  StepDefination.EndToEndCogmento - Clicking on Profile icon
+2024-12-24 16:43:46 [main] INFO  StepDefination.EndToEndCogmento - Clicking on Log Out
+2024-12-24 16:43:46 [main] INFO  StepDefination.EndToEndCogmento - User logged out from the application
+2024-12-24 20:46:13 [main] INFO  StepDefination.EndToEndCogmento - Initializing the WebDriver and navigating to the login page
+2024-12-24 20:46:27 [main] INFO  StepDefination.EndToEndCogmento - Navigated to: https://ui.cogmento.com/
+2024-12-24 20:46:27 [main] INFO  StepDefination.EndToEndCogmento - Entering valid username and password
+2024-12-24 20:46:27 [main] INFO  StepDefination.EndToEndCogmento - Clicking on login button
+2024-12-24 20:46:32 [main] INFO  StepDefination.EndToEndCogmento - Validating home page title
+2024-12-24 20:46:33 [main] INFO  StepDefination.EndToEndCogmento - Home page title validation successful: Cogmento CRM
+2024-12-24 20:46:33 [main] INFO  StepDefination.EndToEndCogmento - Validating logo visibility
+2024-12-24 20:46:33 [main] INFO  StepDefination.EndToEndCogmento - Logo is displayed: true
+2024-12-24 20:46:33 [main] INFO  StepDefination.EndToEndCogmento - Validating home page URL
+2024-12-24 20:46:33 [main] INFO  StepDefination.EndToEndCogmento - URL validation successful: https://ui.cogmento.com/
+2024-12-24 20:46:33 [main] INFO  StepDefination.EndToEndCogmento - Clicking on Contacts link
+2024-12-24 20:46:33 [main] INFO  StepDefination.EndToEndCogmento - Clicking on Create button
+2024-12-24 20:46:33 [main] INFO  StepDefination.EndToEndCogmento - Entering contact details: First name, Last name, Email, and selecting Status
+2024-12-24 20:46:35 [main] INFO  StepDefination.EndToEndCogmento - Selected status: On Hold
+2024-12-24 20:46:35 [main] INFO  StepDefination.EndToEndCogmento - Clicking on Save button
+2024-12-24 20:46:35 [main] INFO  StepDefination.EndToEndCogmento - Deleting the contact
+2024-12-24 20:46:37 [main] INFO  StepDefination.EndToEndCogmento - Contact deleted successfully
+2024-12-24 20:46:37 [main] INFO  StepDefination.EndToEndCogmento - Clicking on Profile icon
+2024-12-24 20:46:37 [main] INFO  StepDefination.EndToEndCogmento - Clicking on Log Out
+2024-12-24 20:46:37 [main] INFO  StepDefination.EndToEndCogmento - User logged out from the application
+2024-12-24 22:39:12 [main] INFO  StepDefination.EndToEndCogmento - Initializing the WebDriver and navigating to the login page
+2024-12-24 22:39:20 [main] INFO  StepDefination.EndToEndCogmento - Navigated to: https://ui.cogmento.com/
+2024-12-24 22:39:20 [main] INFO  StepDefination.EndToEndCogmento - Entering valid username and password
+2024-12-24 22:39:21 [main] INFO  StepDefination.EndToEndCogmento - Clicking on login button
+2024-12-24 22:39:26 [main] INFO  StepDefination.EndToEndCogmento - Validating home page title
+2024-12-24 22:39:26 [main] INFO  StepDefination.EndToEndCogmento - Home page title validation successful: Cogmento CRM
+2024-12-24 22:39:26 [main] INFO  StepDefination.EndToEndCogmento - Validating logo visibility
+2024-12-24 22:39:26 [main] INFO  StepDefination.EndToEndCogmento - Logo is displayed: true
+2024-12-24 22:39:26 [main] INFO  StepDefination.EndToEndCogmento - Validating home page URL
+2024-12-24 22:39:26 [main] INFO  StepDefination.EndToEndCogmento - URL validation successful: https://ui.cogmento.com/
+2024-12-24 22:39:26 [main] INFO  StepDefination.EndToEndCogmento - Clicking on Contacts link
+2024-12-24 22:39:26 [main] INFO  StepDefination.EndToEndCogmento - Clicking on Create button
+2024-12-24 22:39:26 [main] INFO  StepDefination.EndToEndCogmento - Entering contact details: First name, Last name, Email, and selecting Status
+2024-12-24 22:39:28 [main] INFO  StepDefination.EndToEndCogmento - Selected status: On Hold
+2024-12-24 22:39:28 [main] INFO  StepDefination.EndToEndCogmento - Clicking on Save button
+2024-12-24 22:39:28 [main] INFO  StepDefination.EndToEndCogmento - Deleting the contact
+2024-12-24 22:39:30 [main] INFO  StepDefination.EndToEndCogmento - Contact deleted successfully
+2024-12-24 22:39:30 [main] INFO  StepDefination.EndToEndCogmento - Clicking on Profile icon
+2024-12-24 22:39:30 [main] INFO  StepDefination.EndToEndCogmento - Clicking on Log Out
+2024-12-24 22:39:30 [main] INFO  StepDefination.EndToEndCogmento - User logged out from the application
